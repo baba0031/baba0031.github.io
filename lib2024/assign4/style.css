@@ -1,0 +1,120 @@
+
+
+html {
+  box-sizing: border-box;
+  background:url(img/mainbg.png);
+
+  font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #402e16;
+	font-family: "serif", sans-serif;
+}
+
+header {
+	 background: url("img/mainbg.png");
+	 text-align: center;
+	padding: 1em 0;
+	}
+	
+	
+}
+
+h1 {
+	margin: 0 0 1.3rem;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 1.25rem;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	background-color: green;
+	color: #fef7cd;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+nav a:hover {
+	background-color: #fef7cd;
+	color: #272d0d;
+}
+
+
+
+.nav {
+  margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width: 650px) {
+
+  .nav {
+    text-align: center;
+    padding: 0;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 980px) {
+
+  ⋮
+
+}
+
+
+main {
+		
+	}
+	display: inline-block;
+  padding:0
+
+img {
+	display: inline-flex;
+	width: 3%;
+}
+
+
+
+.footer {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 1%;
+	padding: 5rem 5rem;
+	font-size: 0.75rem;
+	background-color: blue;
+	text-align: left;
+
+}
+
+
+	
