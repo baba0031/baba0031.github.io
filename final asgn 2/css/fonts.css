@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'headerFonts';
+  src: url(../fonts/Nobile/Nobile-Bold.ttf);
+}
+.header {
+  font-family: 'headerFonts';
+}

@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-image: url("cheevron.png");
+  background-repeat: readme.txt;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav {
+  background-color: rgb(6, 122, 107);
+  padding: 10px 5%;
+}
+
+.title {
+  clear: both;
+}
+
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule,
+th,
+td {
+  border: 2px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.table {
+  width: 100%;
+}
+
+.gray-background {
+  background-color: rgb(179, 182, 179);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-detail {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.profile-detail li {
+  padding-bottom: 15px;
+}
+
+.input {
+  padding: 4px 5px;
+  float: right;
+  /* margin-left: 10px; */
+  border: black solid 1px;
+  width: 180px;
+}
+
+select.input {
+  padding: 4px 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  width: 180px;
+  border: black 1px solid;
+  border-radius: 0;
+}
+
+.profile-edit {
+  width: 100%;
+}
+
+.profile-info {
+  box-shadow: 1px 3px 7px 3px rgba(31, 30, 30, 0.2);
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+  max-width: 100%;
+}
+
+.profile-info-box {
+  width: 100%;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.76);
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.about p {
+  position: relative;
+}
+
+.about img {
+  float: right;
+  width: 100%;
+}
+
+.avatar {
+  width: 25%;
+  margin-top: 10px;
+}
+
+.fab {
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.fab.fa-facebook-f {
+  padding: 9px 12px;
+  background-color: rgb(66, 103, 178);
+}
+
+.fa-youtube {
+  padding: 9px 8px;
+  background-color: rgb(255, 0, 0);
+}
+
+.fa-twitter {
+  padding: 9px 9px;
+  background-color: rgb(29, 161, 242);
+}
+
+.form-control.success .input {
+  border-color: rgb(69, 209, 34);
+}
+
+.form-control.success .fa-check-circle {
+  color: rgb(69, 209, 34);
+  visibility: visible;
+}
+
+.form-control.error .input {
+  border-color: rgb(231, 49, 43);
+}
+
+.form-control.error .fa-exclamation-circle {
+  color: rgb(231, 49, 43);
+  visibility: visible;
+}
+
+.form-control small {
+  clear: both;
+  float: left;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  color: rgb(231, 49, 43);
+  visibility: visible;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.form-control i {
+  position: absolute;
+  right: 182px;
+  top: 3px;
+  visibility: hidden;
+}
+
+label {
+  float: left;
+  clear: both;
+}
+
+.green-color {
+  color: rgb(6, 122, 107);
+}
+
+.icon {
+  width: 35px;
+}
+
+button.input {
+  clear: both;
+  margin-bottom: 60px;
+  padding: 4px;
+}
+
+.quick-links {
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.699);
+  text-decoration: none;
+}
+
+.small-size {
+  font-size: small;
+}
+
+.social-media {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav li {
+    margin-right: 30px;
+  }
+
+  .about img {
+    max-width: 350px;
+    margin-left: 10px;
+  }
+
+  .profile-detail {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .profile-info-box,
+  .profile-edit {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    max-width: 1050px;
+  }
+
+  .profile-info-box,
+  .profile-edit {
+    max-width: 450px;
+  }
+}
